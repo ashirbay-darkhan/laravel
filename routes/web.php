@@ -31,5 +31,17 @@ Route::get('/form', function () {
 
 // ->name('form-submit') слушает форму/анкету, при нажатии на кнопу Отпарвить обрабатывает @submit в /http/contollers/FormController.php
 
+// Получение по id
+Route::get('/form/all/{id}', 'App\Http\Controllers\FormController@showOneData')->name('form-data-one');
+
+// Получение по id
+Route::get(
+    '/form/all/{id}/delete', 
+    'App\Http\Controllers\FormController@deleteData'
+)->name('form-delete');
+
+// Вывод всех елементов
+Route::get('/admin', 'App\Http\Controllers\FormController@allData')->name('form-data');
+
 Route::post('/form/submit', 'App\Http\Controllers\FormController@submit')->name('form-submit');
 

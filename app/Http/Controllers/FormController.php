@@ -26,6 +26,18 @@ class FormController extends Controller
 
         return redirect()->route('home')->with('success', 'Заявка была добавлена');
         
-        
+    }
+
+    public function allData() {
+        return view('admin', ['data' => Form::all()]);
+    }
+
+    public function showOneData($id) {
+        return view('admin', ['data' => Form::find($id)]);
+    }
+
+    public function deleteData($id) {
+        Form::find($id)->delete();
+        return redirect()->route('form-data')->with("success", 'Coобщение добавоено!');
     }
 }

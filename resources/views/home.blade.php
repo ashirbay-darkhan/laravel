@@ -46,6 +46,7 @@
                 <li class="nav-item"><a href="#" class="nav-link">Главная</a></li>
                 <li class="nav-item"><a href="#pets" class="nav-link">Питомцы</a></li>
                 <li class="nav-item"><a href="#about" class="nav-link">О приюте</a></li>
+                <li class="nav-item"><a href="{{ route('form-data') }}" class="nav-link">admin</a></li>
                 <li class="nav-item"><a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal" class="nav-link">Помочь приюту</a></li>
             </ul>
           </div>
