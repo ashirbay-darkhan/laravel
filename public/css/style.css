@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+* {
+    font-family: Saira, sans-serif;
+    color: #000;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    transition: .4s;
+}
+
+.header {
+    background-image: linear-gradient(to right, #FFE381, #FF9C29);
+}
+
+.nav-link {
+    color: #000;
+    font-size: 15px;
+}
+
+.nav-link:hover {
+    color: #000;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    border-radius: 0px;
+}
+
+.menu-logo {
+    padding: 10px 10px;
+    background: #000000;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.menu-text {
+    padding: 0 0 0 5px;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+
+.showcase-h1 {
+    font-weight: bold;
+}
+
+.show-p {
+    font-family: Montserrat, sans-serif;
+    width: 470px;
+}
+
+
+
+.img-w {
+    width: 470px;
+}
+
+.show-btn {
+    padding: 16px 18px;
+    background: #FFE03D;
+    border: 1px solid #000000;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+.show-btn:hover {
+    color: #000;
+}
+
+.show-img {
+    width: 100%;
+    display: inline-block;
+    padding-top: 20px;
+}
+.navbar {
+    background-image: linear-gradient(to right, #FFE381, #FF9C29);
+}
+
+.section {
+    background-image: linear-gradient(to right, #FFE381, #FF9C29);
+    height: 80vh;
+}
+
+.help-p {
+    font-family: Montserrat, sans-serif;
+    color: #FF0F0F;
+}
+
+.pets {
+    background-color: #FFE7E7;
+}
+
+.p-text {
+    padding: 0px 20px;
+
+}
+
+.p-btn {
+    font-family: Saira, sans-serif;
+    padding: 8px 18px;
+    background: #fff;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0 15px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card {
+    border: 20px;
+}
+
+.card-text {
+    font-size: 24px;
+    font-family: Montserrat, sans-serif;
+}
+
+.about-text {
+    width: 400px;
+}
+
+
+.about-btn {
+    padding: 16px 18px;
+    background: #FFE7E7;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn-form {
+    padding: 15px 25px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+@media screen and (max-width: 1000px) {
+    .show-p {
+        width: 370px;
+    }
+  }
+
+
+@media screen and (max-width: 570px) {
+    .show-p {
+        width: 100%;
+    }
+    .about-text {
+        width: 100%;
+    }
+  }
